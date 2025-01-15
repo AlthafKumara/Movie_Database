@@ -7,60 +7,60 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## User Result
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+*Create User 
+![image](https://github.com/user-attachments/assets/7c08ecf5-1845-4fc8-9914-3a0bf0d98889)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+*Get User
+![image](https://github.com/user-attachments/assets/f074267b-0004-4487-bcc0-cb65c65ee160)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+*Get Detail User
+![image](https://github.com/user-attachments/assets/364d1dc2-6dd9-4920-b3db-d2a7d9712de7)
 
-## Learning Laravel
+*Update User
+![image](https://github.com/user-attachments/assets/58a644c6-aa1d-4345-83e6-c189a778aa27)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+*Delete User
+![image](https://github.com/user-attachments/assets/26d5e9d5-7a32-4e31-9066-d47095c7a13c)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Category Result
 
-## Laravel Sponsors
+*Create Category
+![image](https://github.com/user-attachments/assets/3654a15f-d2be-4486-85df-40056a1489da)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+*Get Category
+![image](https://github.com/user-attachments/assets/132550e4-da69-42e0-94c3-e1d3c2ba03a2)
 
-### Premium Partners
+*Get Detail Category
+![image](https://github.com/user-attachments/assets/609fb0f5-874c-497b-a315-5ea810eb3ccf)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+*Update Category
+![image](https://github.com/user-attachments/assets/70ac7c31-a9d2-4de2-9a86-40b40d0a3d08)
 
-## Contributing
+*Delete Category
+![image](https://github.com/user-attachments/assets/82c52c21-f408-45b2-a1b0-962a96f141c7)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+## Movie Result
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+*Create Movie
+![image](https://github.com/user-attachments/assets/78f623e2-7e8f-4b42-a3c2-adec64f59bde)
 
-## Security Vulnerabilities
+*Get Movie
+![image](https://github.com/user-attachments/assets/7c1d84e2-fdb7-467a-894a-6baf6c4c97e3)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+*Get Detail Movie
+![image](https://github.com/user-attachments/assets/6cd3fb96-63b8-464f-945b-ff6a36123c1b)
 
-## License
+*Update Movie
+![image](https://github.com/user-attachments/assets/1c77f240-0d26-468d-8e15-ae56ac5d724b)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+*Delete Movie\
+![image](https://github.com/user-attachments/assets/e258bd45-5e10-4af9-8a89-d2add10e02d8)
+
+**DONE 
+
+
+
