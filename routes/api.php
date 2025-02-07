@@ -16,6 +16,8 @@ use App\Http\Controllers\MovieController;
 */
 
 // AUTH API
+Route::post("/login_user",[AuthController::class,"login"]);
+Route::get("/logout_user",[AuthController::class,"logout"]);
 Route::post("register_admin",[AuthController::class,"register"]);   
 Route::get("/get_user",[AuthController::class,"getUser" ]);
 Route::get("/get_detail_user/{id}",[AuthController::class,"getDetailUser"]);

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+    use Illuminate\Support\Facades\Auth;
     use Illuminate\Http\Request;
     use Illuminate\Support\Facades\Validator;
     use App\Models\User;
@@ -12,6 +13,52 @@ namespace App\Http\Controllers;
 
 class AuthController extends Controller
 {
+
+    public function login(Request $request){
+
+    $jsonString = $request->input('data'); // Ambil data JSON dari request
+    $userData = json_decode($jsonString); // Ubah JSON menjadi objek PHP
+
+        $validator =  Validator::make($request->all(),[
+            'email' => 'required|string|email',
+            'password' => 'required|string',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                'status'=> false,
+                'message' => $validator->errors(),
+            ]);
+        }
+        $credentials = $request->only('email','password');
+        $token = Auth::guard('api')->attempt($credentials);
+        if (!$token) {
+            return response()->json([
+                'status' => false,
+                'message' => 'Unauthorized',
+            ], 401);
+        }
+
+        $user = Auth::guard('api')->user();
+        return response()->json([
+            'status' => true,
+            'message' => 'Sukses Login',
+            'data' =>$user,
+            'authorisation'=>[
+                'token' =>$token,
+                'type' => 'bearer',
+            ]
+        ]);
+    }
+
+    public function logout(){
+        Auth::guard('api')->logout();
+        return response()->json([
+            'status'=> true,
+            'message'=> 'Sukses logout',
+        ]);
+    }   
+
     function register(Request $request) {
         $validator = Validator::make($request->all(),[
             "name"=>'required',
